@@ -171,21 +171,21 @@ footer nav{
 }
 
 
-footer nav li{
+.footer nav li{
     display: inline-block;
     list-style-type: none ;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
-footer nav li a{
+.footer nav li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-footer h3{
-    color: white;
-    margin: 10px 0px 10px;
+.footer h3{
+    color: black;
+    margin: 100px 0px 10px;
     font-size: 25px;
 }
