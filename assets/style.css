@@ -16,6 +16,7 @@
 
 nav{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
@@ -72,7 +73,7 @@ span{
 
 .content{
     position:absolute;
-    top: 25%;
+    top: 20%;
     left: 5%;
     color: white;
 
@@ -80,25 +81,48 @@ span{
 
 h3{
     color: white;
-    margin: 20px 0px 20px;
+    margin: 10px 0px 10px;
     font-size: 25px;
 }
 
 h1{
     color: white;
     font-size: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h2{
-    letter-spacing: 2px;
+    letter-spacing:0px;
     font-size: 20px;
 }
 
 .content img {
-    position: relative;
-    left: 900px;
+    display: block;
+    left: 2000px;
     top: 100px;
 
 } 
+
+.about{
+    width:100%;
+    padding: 100px 50px;
+
+}
+
+.about img{
+    float: right;
+    height: auto;
+    width:500px
+}
+
+.about-text{
+    width: 600px;
+
+
+}
+
+.main p{
+    color: white;
+
+}
 
