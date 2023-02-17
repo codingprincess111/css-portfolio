@@ -91,9 +91,10 @@ h1{
     margin-bottom: 10px;
 }
 
-h2{
+.main h2{
+    color: white;
     letter-spacing:0px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .content img {
@@ -105,24 +106,86 @@ h2{
 
 .about{
     width:100%;
-    padding: 100px 50px;
+    padding: 100px 100px;
 
 }
 
 .about img{
     float: right;
     height: auto;
-    width:500px
+    width:500px;
+
 }
 
 .about-text{
-    width: 600px;
-
+    width: 800px;
 
 }
 
 .main p{
     color: white;
+    font-size:150%;
+    justify-content: space-around;
+    display: flex;
+    max-width: 95%;
+    
+    
+}
+
+.submit form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
 
 }
 
+.submit form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 130px 14px 14px;
+    border: 2px solid fuchsia;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.submit form input:last-child{
+    position:absolute;
+    display: inline-block;
+    outline: none;
+    border:none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: fuchsia;
+    color: white;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+
+footer nav li{
+    display: inline-block;
+    list-style-type: none ;
+    padding: 5px 10px;
+}
+
+footer nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+footer h3{
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 25px;
+}
