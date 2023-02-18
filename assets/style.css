@@ -142,7 +142,7 @@ h1{
 .submit form input:first-child{
     display: inline-block;
     width: 100%;
-    padding: 15px 130px 14px 14px;
+    padding: 15px 130px 15px 15px;
     border: 2px solid fuchsia;
     outline: none;
     border-radius: 30px;
@@ -154,10 +154,18 @@ h1{
     display: inline-block;
     outline: none;
     border:none;
-    padding: 15px 20px;
-    border-radius: 25px;
+    padding: 15px 10px;
+    border-radius: 30px;
     background-color: fuchsia;
     color: white;
+}
+
+.skills{
+    padding-top: 20px;
+    color: white;
+    font-size:150%;
+    max-width: 50%;
+    
 }
 
 footer nav{
@@ -186,6 +194,6 @@ footer nav{
 
 .footer h3{
     color: black;
-    margin: 100px 0px 10px;
+    margin: 10px 0px 10px;
     font-size: 25px;
 }
