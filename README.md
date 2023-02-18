@@ -6,7 +6,7 @@
 
  ## link 
 
- my project can be found here https://github.com/codingprincess111/css-portfolio 
+ my project can be found here https://codingprincess111.github.io/css-portfolio/
 
  ## Screenshots
 
